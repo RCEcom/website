@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html{
+            background-color:#020202;
+        }
+        .container{
+            background-color:#020202;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            height: 40px;
+            border: 5px solid black;
+            margin: 10px;
+        }
+        .item{
+            color: #28B463 ;
+            width: 100px;
+            height: 30px;
+            font-size: 30px;
+            border: 1px solid #28B463 ;
+            padding-left: 30px;
+            padding-right: 40px;
+            padding-bottom: 10px;
+            margin-left: 10px;
+            
+        }
+        a{
+            text-decoration-line: none;
+            transition: all, 0.1s;
+        }
+        a:hover{
+            transform: scale(1.1, 1.5);
+        }
+        p{
+            color: white;
+            font-size: 10rem;
+            text-align: center;
+            border: 1px solid white;
+            padding-bottom:30px;
+        }
+        p{
+            color: white;
+            font-size: 3rem;
+        }
+
+    </style>
+    <title>JS Team</title>
+</head>
+<body>
+    <div class="container">
+        <a href="main.html"><div class="item item1">Info</div></a> <!-- Info -->
+        <a href="Members.html"><div class="item item2">Members</div></a> <!-- Members -->
+        <a href="Project.html"><div class="item item3">Project</div></a> <!-- Project -->
+        <a href="Service.html"><div class="item item4">Service</div></a> <!-- Service -->
+        <a href="Etc.html"><div class="item item5">Etc</div></a> <!-- Etc 기타 사이트들(관련된) -->
+    </div>
+    <p>Support various services</p>
+    <a href="https://mankind.tistory.com/"><img src="teach.png"></a>
+    <a href=""><img src="research.png"></a>
+    <a href=""><img src="program.png"></a>
+</body>
+</html>
